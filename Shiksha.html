@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+	<!-- big header -->
+	<style>
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: lightgrey;
+  color: black;
+  font-size: 30px;
+}
+
+
+.content {padding:20px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+   <h2 class="w3-wide" style="font-size: 40px">SHIKSHA</h2>
+  <p><i>We Educate We Inspire They Grow</i></p>
+</div>
+
+<!-- navigation bar -->
+<nav class="w3-bar w3-black">
+  <a href="Shiksha.html" class="w3-button w3-bar-item">Home</a>
+  <a href="about.html" class="w3-button w3-bar-item">About Us</a>
+  <a href="tutors.html" class="w3-button w3-bar-item">Tutors & Subjects</a>
+  <a href="#contact.html" class="w3-button w3-bar-item">Contact Us</a>
+</nav>
+
+<!-- slide show -->
+<section>
+  <img class="mySlides" src="b10ce4c37ba63192d1367b4a09786589.jpg" style="width:100%">
+  <img class="mySlides" src="female_literacy_in_India.jpg" style="width:100%">
+  <img class="mySlides" src="Women-Education-in-India-2-680x460.jpg" style="width:100%">
+  <img class="mySlides" src="c.jpg" style="width:100%">
+  <img class="mySlides" src="final3.jpg" style="width:100%">
+</section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+
+
+<!-- description -->
+<section class="w3-container w3-center w3-content" style="max-width:300px">
+  <h2 class="w3-wide">SHIKSHA</h2>
+  <p class="w3-opacity"><i>We Educate We Inspire They Grow</i></p>
+  <p class="w3-justify">At SHIKSHA we aim to educate women to make their dreams come to reality and make them independent to ensure their secured future. Come join us in our motto of educating the backbone of our nation. </p>
+  <!-- members -->
+</section>
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third" style="margin-left: 500px">
+    <p style="font-size: 30px"><b>SHUBHAM GUPTA</b></p>
+    <img src="Shubham.jpg" alt="Shubham Gupta" width="390" height="400">
+    <p style="font-size: 20px"><b>HEAD</b> </p>
+  </article>
+  <article class="w3-third">
+    <p style="font-size: 30px"><b>SHASHVAT NAWANI</b></p>
+    <img src="Shashwat.jpg" alt="Shashvat Nawani" width="390" height="400" >
+    <p style="font-size: 20px"><b>DEVELOPER</b></p>
+  </article>
+  <article class="w3-third">
+    <p style="font-size: 30px"><b>BHAWANA CHAUDHARY</b></p>
+    <img src="Bhawana.jpg" alt="Bhawana Chaudhary" width="390" height="400">
+    <p style="font-size: 20px"><b>WEBSITE HANDLER</b></p>
+  </article>
+  <article class="w3-third">
+    <p style="font-size: 30px"><b>REETIKA PANDEY</b></p>
+    <img src="Reetika.jpg" alt="Reetika Pandey" width="390" height="400">
+    <p style="font-size: 20px"><b>WEBSITE HANDLER</b></p>
+  </article>
+</section>
+
+
+<!-- footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Presented by ENIGMA
+  </p>
+</footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</body>
+</html>
